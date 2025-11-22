@@ -42,7 +42,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
   </properties>
 
   <name>Java™ EE Web Profile BOM</name>
-  <url>https://oss.aoapps.com/javaee-web-api-bom/</url>
+  <url>https://oss.aoapps.com/jakartaee-web-profile-bom/</url>
   <description>Bill of Materials (BOM) for Java™ EE Web Profile.</description>
   <inceptionYear>2019</inceptionYear>
 
