@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-javaee-web-api-bom - Bill of Materials (BOM) for Java™ EE Web Profile.
+javaee-web-api-bom - Bill of Materials (BOM) for Jakarta EE Web Profile.
 Copyright (C) 2019, 2020, 2021, 2022, 2023, 2025  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
@@ -34,7 +34,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
     title="@{documented.name}"
     description="@{documented.description}"
     datePublished="2019-06-17T08:36:13-05:00"
-    dateModified="2025-07-02T23:05:45Z"
+    dateModified="2025-12-02T22:58:46Z"
   >
     <core:child page="changelog.jspx" />
     <header>
@@ -59,7 +59,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
       />
     </header>
     <p>
-      Bill of Materials (BOM) for <ao:a rel="nofollow" href="https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html">Java™ EE Web Profile</ao:a>.
+      Bill of Materials (BOM) for <ao:a href="https://jakarta.ee/specifications/webprofile/">Jakarta EE Web Profile</ao:a>.
     </p>
     <section:nav label="Project Links">
       <ul>

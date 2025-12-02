@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [AO OSS](https://github.com/ao-apps/ao-oss) / [Java™ EE Web Profile BOM](https://github.com/ao-apps/jakartaee-web-profile-bom)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [AO OSS](https://github.com/ao-apps/ao-oss) / [Jakarta EE Web Profile BOM](https://github.com/ao-apps/jakartaee-web-profile-bom)
 
 [![project: current stable](https://oss.aoapps.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
 [![management: production](https://oss.aoapps.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
@@ -15,7 +15,7 @@
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Ajavaee-web-api-bom&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Ajavaee-web-api-bom&metric=Security)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Ajavaee-web-api-bom&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Ajavaee-web-api-bom&metric=Maintainability)
 
-Bill of Materials (BOM) for [Java™ EE Web Profile](https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html).
+Bill of Materials (BOM) for [Jakarta EE Web Profile](https://jakarta.ee/specifications/webprofile/).
 
 ## Project Links
 * [Project Home](https://oss.aoapps.com/jakartaee-web-profile-bom/)
