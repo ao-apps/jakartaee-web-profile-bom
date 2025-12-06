@@ -28,40 +28,53 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
   xsi:schemaLocation="http://mojo.codehaus.org/versions-maven-plugin/rule/2.0.0 https://www.mojohaus.org/versions-maven-plugin/xsd/rule-2.0.0.xsd"
 >
   <rules>
-    <!-- Stay on Java™ EE Web Profile 7, see https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html#javaee7 -->
-    <rule groupId="javax" artifactId="javaee-web-api" comparisonMethod="maven">
+    <!-- Stay on Jakarta EE Web Profile 10, see https://jakarta.ee/specifications/webprofile/10/ -->
+    <!-- Direct -->
+    <rule groupId="jakarta.el" artifactId="jakarta.el-api" comparisonMethod="maven">
       <ignoreVersions>
-        <ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
-        <ignoreVersion type="regex">.*-RC[0-9]+</ignoreVersion>
-        <ignoreVersion type="regex">8\.[0-9]+.*</ignoreVersion>
+        <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">6\.[0-9]+.*</ignoreVersion>
       </ignoreVersions>
     </rule>
-    <rule groupId="javax.el" artifactId="javax.el-api" comparisonMethod="maven">
+    <rule groupId="jakarta.platform" artifactId="jakarta.jakartaee-web-api" comparisonMethod="maven">
       <ignoreVersions>
-        <ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">11\.[0-9]+.*</ignoreVersion>
       </ignoreVersions>
     </rule>
-    <rule groupId="javax.servlet" artifactId="javax.servlet-api" comparisonMethod="maven">
+    <rule groupId="jakarta.servlet" artifactId="jakarta.servlet-api" comparisonMethod="maven">
       <ignoreVersions>
-        <ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">6\.1\.[0-9]+.*</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <rule groupId="jakarta.servlet.jsp" artifactId="jakarta.servlet.jsp-api" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
         <ignoreVersion type="regex">4\.[0-9]+.*</ignoreVersion>
       </ignoreVersions>
     </rule>
-    <rule groupId="javax.servlet.jsp" artifactId="javax.servlet.jsp-api" comparisonMethod="maven">
+    <rule groupId="jakarta.servlet.jsp.jstl" artifactId="jakarta.servlet.jsp.jstl-api" comparisonMethod="maven">
       <ignoreVersions>
-        <ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
       </ignoreVersions>
     </rule>
-    <rule groupId="javax.websocket" artifactId="javax.websocket-api" comparisonMethod="maven">
+    <rule groupId="jakarta.websocket" artifactId="jakarta.websocket-api" comparisonMethod="maven">
       <ignoreVersions>
-        <ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
-        <ignoreVersion type="regex">.*-rc[0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">2\.2\.[0-9]+.*</ignoreVersion>
       </ignoreVersions>
     </rule>
-    <rule groupId="javax.websocket" artifactId="javax.websocket-client-api" comparisonMethod="maven">
+    <rule groupId="jakarta.websocket" artifactId="jakarta.websocket-client-api" comparisonMethod="maven">
       <ignoreVersions>
-        <ignoreVersion type="regex">.*-b[0-9]+</ignoreVersion>
-        <ignoreVersion type="regex">.*-rc[0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
+        <ignoreVersion type="regex">2\.2\.[0-9]+.*</ignoreVersion>
+      </ignoreVersions>
+    </rule>
+    <!-- Runtime -->
+    <rule groupId="org.glassfish.web" artifactId="jakarta.servlet.jsp.jstl" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
       </ignoreVersions>
     </rule>
   </rules>

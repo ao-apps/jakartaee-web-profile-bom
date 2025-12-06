@@ -33,17 +33,16 @@ def upstreamProjects = [
   'ant-tasks', // <groupId>com.aoapps</groupId><artifactId>ao-ant-tasks</artifactId>
   'checkstyle-config', // <groupId>com.aoapps</groupId><artifactId>ao-checkstyle-config</artifactId>
 
-  // Managed
-  // No Jenkins: <groupId>javax</groupId><artifactId>javaee-web-api</artifactId>
-  // No Jenkins: <groupId>javax.el</groupId><artifactId>javax.el-api</artifactId>
-  // No Jenkins: <groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId>
-  // No Jenkins: <groupId>javax.servlet.jsp</groupId><artifactId>javax.servlet.jsp-api</artifactId>
-  // No Jenkins: <groupId>javax.websocket</groupId><artifactId>javax.websocket-api</artifactId>
-  // No Jenkins: <groupId>javax.websocket</groupId><artifactId>javax.websocket-client-api</artifactId>
-  // No Jenkins: <groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-compat</artifactId>
-  // No Jenkins: <groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-impl</artifactId>
-  // No Jenkins: <groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-jstlel</artifactId>
-  // No Jenkins: <groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-spec</artifactId>
+  // Direct
+  // No Jenkins: <groupId>jakarta.el</groupId><artifactId>jakarta.el-api</artifactId>
+  // No Jenkins: <groupId>jakarta.platform</groupId><artifactId>jakarta.jakartaee-web-api</artifactId>
+  // No Jenkins: <groupId>jakarta.servlet</groupId><artifactId>jakarta.servlet-api</artifactId>
+  // No Jenkins: <groupId>jakarta.servlet.jsp</groupId><artifactId>jakarta.servlet.jsp-api</artifactId>
+  // No Jenkins: <groupId>jakarta.servlet.jsp.jstl</groupId><artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+  // No Jenkins: <groupId>jakarta.websocket</groupId><artifactId>jakarta.websocket-api</artifactId>
+  // No Jenkins: <groupId>jakarta.websocket</groupId><artifactId>jakarta.websocket-client-api</artifactId>
+  // Runtime
+  // No Jenkins: <groupId>org.glassfish.web</groupId><artifactId>jakarta.servlet.jsp.jstl</artifactId>
 ]
 
 /******************************************************************************************

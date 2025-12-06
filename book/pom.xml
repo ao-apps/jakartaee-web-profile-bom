@@ -44,6 +44,9 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     <!-- Java 11 for Jakarta EE 10 -->
     <documented.javase.version>11</documented.javase.version>
     <documented.javadoc.link.javase>${javadoc.link.javase.11}</documented.javadoc.link.javase>
+    <!-- Jakarta EE 10 -->
+    <documented.javaee.version>10</documented.javaee.version>
+    <documented.javadoc.link.javaee>${javadoc.link.jakartaee.10}</documented.javadoc.link.javaee>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>

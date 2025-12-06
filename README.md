@@ -3,7 +3,7 @@
 [![project: current stable](https://oss.aoapps.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
 [![management: production](https://oss.aoapps.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
 [![packaging: active](https://oss.aoapps.com/ao-badges/packaging-active.svg)](https://aoindustries.com/life-cycle#packaging-active)  
-[![java ee: &gt;= 7](https://oss.aoapps.com/ao-badges/javaee-7.svg)](https://docs.oracle.com/javaee/7/)
+[![jakarta ee: &gt;= 10](https://oss.aoapps.com/ao-badges/jakartaee-10.svg)](https://jakarta.ee/release/10/)
 [![semantic versioning: 2.0.0](https://oss.aoapps.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://oss.aoapps.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
@@ -24,16 +24,16 @@ Bill of Materials (BOM) for [Jakarta EE Web Profile](https://jakarta.ee/specific
 * [GitHub](https://github.com/ao-apps/jakartaee-web-profile-bom)
 
 ## Managed Dependencies
-* [javax:**javaee-web-api**:7.0](https://central.sonatype.com/artifact/javax/javaee-web-api/7.0)
-* [javax.el:**javax.el-api**:3.0.0](https://central.sonatype.com/artifact/javax.el/javax.el-api/3.0.0)
-* [javax.servlet:**javax.servlet-api**:3.1.0](https://central.sonatype.com/artifact/javax.servlet/javax.servlet-api/3.1.0)
-* [javax.servlet.jsp:**javax.servlet.jsp-api**:2.3.3](https://central.sonatype.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api/2.3.3)
-* [javax.websocket:**javax.websocket-api**:1.1](https://central.sonatype.com/artifact/javax.websocket/javax.websocket-api/1.1)
-* [javax.websocket:**javax.websocket-client-api**:1.1](https://central.sonatype.com/artifact/javax.websocket/javax.websocket-client-api/1.1)
-* [org.apache.taglibs:**taglibs-standard-compat**:1.2.5](https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-compat/1.2.5)
-* [org.apache.taglibs:**taglibs-standard-impl**:1.2.5](https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-impl/1.2.5)
-* [org.apache.taglibs:**taglibs-standard-jstlel**:1.2.5](https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-jstlel/1.2.5)
-* [org.apache.taglibs:**taglibs-standard-spec**:1.2.5](https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-spec/1.2.5)
+* Direct:
+** [jakarta.el:**jakarta.el-api**:5.0.1](https://central.sonatype.com/artifact/jakarta.el/jakarta.el-api/5.0.1)
+** [jakarta.platform:**jakarta.jakartaee-web-api**:10.0.0](https://central.sonatype.com/artifact/jakarta.platform/jakarta.jakartaee-web-api/10.0.0)
+** [jakarta.servlet:**jakarta.servlet-api**:6.0.0](https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/6.0.0)
+** [jakarta.servlet.jsp:**jakarta.servlet.jsp-api**:3.1.1](https://central.sonatype.com/artifact/jakarta.servlet.jsp/jakarta.servlet.jsp-api/3.1.1)
+** [jakarta.servlet.jsp.jstl:**jakarta.servlet.jsp.jstl-api**:3.0.2](https://central.sonatype.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api/3.0.2)
+** [jakarta.websocket:**jakarta.websocket-api**:2.1.1](https://central.sonatype.com/artifact/jakarta.websocket/jakarta.websocket-api/2.1.1)
+** [jakarta.websocket:**jakarta.websocket-client-api**:2.1.1](https://central.sonatype.com/artifact/jakarta.websocket/jakarta.websocket-client-api/2.1.1)
+* Runtime:
+** [org.glassfish.web:**jakarta.servlet.jsp.jstl**:3.0.1](https://central.sonatype.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl/3.0.1)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):

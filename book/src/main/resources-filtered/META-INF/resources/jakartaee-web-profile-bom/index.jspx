@@ -34,7 +34,7 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     title="@{documented.name}"
     description="@{documented.description}"
     datePublished="2019-06-17T08:36:13-05:00"
-    dateModified="2025-12-02T22:58:46Z"
+    dateModified="2025-12-06T05:06:00Z"
   >
     <core:child page="changelog.jspx" />
     <header>
@@ -71,16 +71,22 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     </section:nav>
     <section:section label="Managed Dependencies">
       <ul>
-        <li><ao:a href="https://central.sonatype.com/artifact/javax/javaee-web-api/7.0">javax:<strong>javaee-web-api</strong>:7.0</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/artifact/javax.el/javax.el-api/3.0.0">javax.el:<strong>javax.el-api</strong>:3.0.0</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/artifact/javax.servlet/javax.servlet-api/3.1.0">javax.servlet:<strong>javax.servlet-api</strong>:3.1.0</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api/2.3.3">javax.servlet.jsp:<strong>javax.servlet.jsp-api</strong>:2.3.3</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/artifact/javax.websocket/javax.websocket-api/1.1">javax.websocket:<strong>javax.websocket-api</strong>:1.1</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/artifact/javax.websocket/javax.websocket-client-api/1.1">javax.websocket:<strong>javax.websocket-client-api</strong>:1.1</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-compat/1.2.5">org.apache.taglibs:<strong>taglibs-standard-compat</strong>:1.2.5</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-impl/1.2.5">org.apache.taglibs:<strong>taglibs-standard-impl</strong>:1.2.5</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-jstlel/1.2.5">org.apache.taglibs:<strong>taglibs-standard-jstlel</strong>:1.2.5</ao:a></li>
-        <li><ao:a href="https://central.sonatype.com/artifact/org.apache.taglibs/taglibs-standard-spec/1.2.5">org.apache.taglibs:<strong>taglibs-standard-spec</strong>:1.2.5</ao:a></li>
+        <li>Direct:
+          <ul>
+            <li><ao:a href="https://central.sonatype.com/artifact/jakarta.el/jakarta.el-api/5.0.1">jakarta.el:<strong>jakarta.el-api</strong>:5.0.1</ao:a></li>
+            <li><ao:a href="https://central.sonatype.com/artifact/jakarta.platform/jakarta.jakartaee-web-api/10.0.0">jakarta.platform:<strong>jakarta.jakartaee-web-api</strong>:10.0.0</ao:a></li>
+            <li><ao:a href="https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/6.0.0">jakarta.servlet:<strong>jakarta.servlet-api</strong>:6.0.0</ao:a></li>
+            <li><ao:a href="https://central.sonatype.com/artifact/jakarta.servlet.jsp/jakarta.servlet.jsp-api/3.1.1">jakarta.servlet.jsp:<strong>jakarta.servlet.jsp-api</strong>:3.1.1</ao:a></li>
+            <li><ao:a href="https://central.sonatype.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api/3.0.2">jakarta.servlet.jsp.jstl:<strong>jakarta.servlet.jsp.jstl-api</strong>:3.0.2</ao:a></li>
+            <li><ao:a href="https://central.sonatype.com/artifact/jakarta.websocket/jakarta.websocket-api/2.1.1">jakarta.websocket:<strong>jakarta.websocket-api</strong>:2.1.1</ao:a></li>
+            <li><ao:a href="https://central.sonatype.com/artifact/jakarta.websocket/jakarta.websocket-client-api/2.1.1">jakarta.websocket:<strong>jakarta.websocket-client-api</strong>:2.1.1</ao:a></li>
+          </ul>
+        </li>
+        <li>Runtime:
+          <ul>
+            <li><ao:a href="https://central.sonatype.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl/3.0.1">org.glassfish.web:<strong>jakarta.servlet.jsp.jstl</strong>:3.0.1</ao:a></li>
+          </ul>
+        </li>
       </ul>
     </section:section>
   </core:page>
