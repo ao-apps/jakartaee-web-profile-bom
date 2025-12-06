@@ -7,13 +7,13 @@
 [![semantic versioning: 2.0.0](https://oss.aoapps.com/ao-badges/semver-2.0.0.svg)](https://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://oss.aoapps.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/ao-apps/jakartaee-web-profile-bom/workflows/Build/badge.svg?branch=master)](https://github.com/ao-apps/jakartaee-web-profile-bom/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/jakartaee-web-profile-bom/workflows/Build/badge.svg?branch=javaee)](https://github.com/ao-apps/jakartaee-web-profile-bom/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.aoapps/javaee-web-api-bom/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.aoapps/javaee-web-api-bom)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Ajakartaee-web-profile-bom&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.aoapps%3Ajakartaee-web-profile-bom)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Ajakartaee-web-profile-bom&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Ajakartaee-web-profile-bom&metric=ncloc)  
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Ajakartaee-web-profile-bom&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Ajakartaee-web-profile-bom&metric=Reliability)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Ajakartaee-web-profile-bom&metric=security_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Ajakartaee-web-profile-bom&metric=Security)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps%3Ajakartaee-web-profile-bom&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps%3Ajakartaee-web-profile-bom&metric=Maintainability)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.aoapps%3Ajakartaee-web-profile-bom&metric=alert_status)](https://sonarcloud.io/dashboard?branch=javaee&id=com.aoapps%3Ajakartaee-web-profile-bom)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.aoapps%3Ajakartaee-web-profile-bom&metric=ncloc)](https://sonarcloud.io/component_measures?branch=javaee&id=com.aoapps%3Ajakartaee-web-profile-bom&metric=ncloc)  
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.aoapps%3Ajakartaee-web-profile-bom&metric=reliability_rating)](https://sonarcloud.io/component_measures?branch=javaee&id=com.aoapps%3Ajakartaee-web-profile-bom&metric=Reliability)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.aoapps%3Ajakartaee-web-profile-bom&metric=security_rating)](https://sonarcloud.io/component_measures?branch=javaee&id=com.aoapps%3Ajakartaee-web-profile-bom&metric=Security)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?branch=javaee&project=com.aoapps%3Ajakartaee-web-profile-bom&metric=sqale_rating)](https://sonarcloud.io/component_measures?branch=javaee&id=com.aoapps%3Ajakartaee-web-profile-bom&metric=Maintainability)
 
 Bill of Materials (BOM) for [Java™ EE Web Profile](https://www.oracle.com/java/technologies/javaee/javaeetechnologies.html).
 
