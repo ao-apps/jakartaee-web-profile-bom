@@ -37,7 +37,7 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2019-06-17T08:42:49-05:00"
-    dateModified="2025-12-06T02:33:55Z"
+    dateModified="2025-12-06T03:45:40Z"
   >
     <c:set var="latestRelease" value="7.0.1" />
     <c:if test="${
@@ -69,7 +69,7 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     </changelog:release>
 
     <changelog:release
-      projectName="@{documented.name}"
+      projectName="Java™ EE Web Profile BOM"
       version="7.0.1"
       datePublished="2021-10-15T20:36:28-05:00"
       groupId="@{project.groupId}"
@@ -87,7 +87,7 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     </changelog:release>
 
     <changelog:release
-      projectName="@{documented.name}"
+      projectName="Java™ EE Web Profile BOM"
       version="7.0.0"
       datePublished="2021-07-04T22:48:34-05:00"
       groupId="@{project.groupId}"
@@ -102,7 +102,7 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     </changelog:release>
 
     <changelog:release
-      projectName="@{documented.name}"
+      projectName="Java™ EE Web Profile BOM"
       version="6.0.1"
       datePublished="2020-03-23T20:53:34-05:00"
       groupId="com.aoindustries"
@@ -118,7 +118,7 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     </changelog:release>
 
     <changelog:release
-      projectName="@{documented.name}"
+      projectName="Java™ EE Web Profile BOM"
       version="6.0.0"
       datePublished="2019-06-19T04:00:32-05:00"
       groupId="com.aoindustries"
