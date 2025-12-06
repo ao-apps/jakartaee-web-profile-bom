@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-javaee-web-api-bom - Bill of Materials (BOM) for Jakarta EE Web Profile.
+jakartaee-web-profile-bom - Bill of Materials (BOM) for Jakarta EE Web Profile.
 Copyright (C) 2019, 2020, 2021, 2022, 2023, 2025  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
 
-This file is part of javaee-web-api-bom.
+This file is part of jakartaee-web-profile-bom.
 
-javaee-web-api-bom is free software: you can redistribute it and/or modify
+jakartaee-web-profile-bom is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-javaee-web-api-bom is distributed in the hope that it will be useful,
+jakartaee-web-profile-bom is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Lesser General Public License for more details.
 
 You should have received a copy of the GNU Lesser General Public License
-along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
+along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses/>.
 -->
 <jsp:root
   xmlns:ao="https://oss.aoapps.com/taglib/"
@@ -37,7 +37,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2019-06-17T08:42:49-05:00"
-    dateModified="2025-12-02T22:58:46Z"
+    dateModified="2025-12-06T02:33:55Z"
   >
     <c:set var="latestRelease" value="7.0.1" />
     <c:if test="${
@@ -56,10 +56,24 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
 
     <changelog:release
       projectName="@{documented.name}"
+      version="@{project.version}"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>TODO: Updated to <ao:a href="https://jakarta.ee/specifications/webprofile/10/">Jakarta EE Web Profile 10</ao:a> (Servlet 6.0, JSP 3.1, EL 5.0, and JSTL 3.0).</li>
+        <li>TODO: Minimum Java version changed from 1.7 to 11.</li>
+        <li>Maven artifact relocated from <code>com.aoapps:javaee-web-api-bom</code> to <code>com.aoapps:jakartaee-web-profile-bom</code>.</li>
+      </ul>
+    </changelog:release>
+
+    <changelog:release
+      projectName="@{documented.name}"
       version="7.0.1"
       datePublished="2021-10-15T20:36:28-05:00"
       groupId="@{project.groupId}"
-      artifactId="@{documented.artifactId}"
+      artifactId="javaee-web-api-bom"
       scmUrl="@{project.scm.url}"
     >
       <ul>
@@ -77,7 +91,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
       version="7.0.0"
       datePublished="2021-07-04T22:48:34-05:00"
       groupId="@{project.groupId}"
-      artifactId="@{documented.artifactId}"
+      artifactId="javaee-web-api-bom"
       scmUrl="@{project.scm.url}"
     >
       <ul>
@@ -92,7 +106,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
       version="6.0.1"
       datePublished="2020-03-23T20:53:34-05:00"
       groupId="com.aoindustries"
-      artifactId="@{documented.artifactId}"
+      artifactId="javaee-web-api-bom"
       scmUrl="@{project.scm.url}"
     >
       <ul>
@@ -108,7 +122,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
       version="6.0.0"
       datePublished="2019-06-19T04:00:32-05:00"
       groupId="com.aoindustries"
-      artifactId="@{documented.artifactId}"
+      artifactId="javaee-web-api-bom"
       scmUrl="@{project.scm.url}"
     >
       <ul>

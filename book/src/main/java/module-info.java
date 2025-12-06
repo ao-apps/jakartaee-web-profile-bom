@@ -1,24 +1,24 @@
 /*
- * javaee-web-api-bom - Bill of Materials (BOM) for Jakarta EE Web Profile.
+ * jakartaee-web-profile-bom - Bill of Materials (BOM) for Jakarta EE Web Profile.
  * Copyright (C) 2021, 2022, 2025  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
  *
- * This file is part of javaee-web-api-bom.
+ * This file is part of jakartaee-web-profile-bom.
  *
- * javaee-web-api-bom is free software: you can redistribute it and/or modify
+ * jakartaee-web-profile-bom is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * javaee-web-api-bom is distributed in the hope that it will be useful,
+ * jakartaee-web-profile-bom is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
+ * along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses/>.
  */
 module com.aoapps.javaee.webapi.bom.book {
   // Direct
