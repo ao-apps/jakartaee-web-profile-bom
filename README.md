@@ -25,15 +25,15 @@ Bill of Materials (BOM) for [Jakarta EE Web Profile](https://jakarta.ee/specific
 
 ## Managed Dependencies
 * Direct:
-** [jakarta.el:**jakarta.el-api**:5.0.1](https://central.sonatype.com/artifact/jakarta.el/jakarta.el-api/5.0.1)
-** [jakarta.platform:**jakarta.jakartaee-web-api**:10.0.0](https://central.sonatype.com/artifact/jakarta.platform/jakarta.jakartaee-web-api/10.0.0)
-** [jakarta.servlet:**jakarta.servlet-api**:6.0.0](https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/6.0.0)
-** [jakarta.servlet.jsp:**jakarta.servlet.jsp-api**:3.1.1](https://central.sonatype.com/artifact/jakarta.servlet.jsp/jakarta.servlet.jsp-api/3.1.1)
-** [jakarta.servlet.jsp.jstl:**jakarta.servlet.jsp.jstl-api**:3.0.2](https://central.sonatype.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api/3.0.2)
-** [jakarta.websocket:**jakarta.websocket-api**:2.1.1](https://central.sonatype.com/artifact/jakarta.websocket/jakarta.websocket-api/2.1.1)
-** [jakarta.websocket:**jakarta.websocket-client-api**:2.1.1](https://central.sonatype.com/artifact/jakarta.websocket/jakarta.websocket-client-api/2.1.1)
+    * [jakarta.el:**jakarta.el-api**:5.0.1](https://central.sonatype.com/artifact/jakarta.el/jakarta.el-api/5.0.1)
+    * [jakarta.platform:**jakarta.jakartaee-web-api**:10.0.0](https://central.sonatype.com/artifact/jakarta.platform/jakarta.jakartaee-web-api/10.0.0)
+    * [jakarta.servlet:**jakarta.servlet-api**:6.0.0](https://central.sonatype.com/artifact/jakarta.servlet/jakarta.servlet-api/6.0.0)
+    * [jakarta.servlet.jsp:**jakarta.servlet.jsp-api**:3.1.1](https://central.sonatype.com/artifact/jakarta.servlet.jsp/jakarta.servlet.jsp-api/3.1.1)
+    * [jakarta.servlet.jsp.jstl:**jakarta.servlet.jsp.jstl-api**:3.0.2](https://central.sonatype.com/artifact/jakarta.servlet.jsp.jstl/jakarta.servlet.jsp.jstl-api/3.0.2)
+    * [jakarta.websocket:**jakarta.websocket-api**:2.1.1](https://central.sonatype.com/artifact/jakarta.websocket/jakarta.websocket-api/2.1.1)
+    * [jakarta.websocket:**jakarta.websocket-client-api**:2.1.1](https://central.sonatype.com/artifact/jakarta.websocket/jakarta.websocket-client-api/2.1.1)
 * Runtime:
-** [org.glassfish.web:**jakarta.servlet.jsp.jstl**:3.0.1](https://central.sonatype.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl/3.0.1)
+    * [org.glassfish.web:**jakarta.servlet.jsp.jstl**:3.0.1](https://central.sonatype.com/artifact/org.glassfish.web/jakarta.servlet.jsp.jstl/3.0.1)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
