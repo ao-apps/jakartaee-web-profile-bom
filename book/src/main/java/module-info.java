@@ -1,6 +1,6 @@
 /*
- * javaee-web-api-bom - Bill of Materials (BOM) for Jakarta EE Web Profile.
- * Copyright (C) 2021, 2022, 2025  AO Industries, Inc.
+ * javaee-web-api-bom - Bill of Materials (BOM) for Java™ EE Web Profile.
+ * Copyright (C) 2021, 2022  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695

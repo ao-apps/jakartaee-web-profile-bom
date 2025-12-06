@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-javaee-web-api-bom - Bill of Materials (BOM) for Jakarta EE Web Profile.
+javaee-web-api-bom - Bill of Materials (BOM) for Java™ EE Web Profile.
 Copyright (C) 2019, 2020, 2021, 2022, 2023, 2025  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
@@ -37,7 +37,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2019-06-17T08:42:49-05:00"
-    dateModified="2025-12-06T02:33:55Z"
+    dateModified="2025-12-06T03:45:40Z"
   >
     <c:set var="latestRelease" value="7.0.1" />
     <c:if test="${
@@ -55,7 +55,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
     </c:if>
 
     <changelog:release
-      projectName="@{documented.name}"
+      projectName="Jakarta EE Web Profile BOM"
       version="10.0.0-SNAPSHOT"
       groupId="@{project.groupId}"
       artifactId="jakartaee-web-profile-bom"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-javaee-web-api-bom - Bill of Materials (BOM) for Jakarta EE Web Profile.
+javaee-web-api-bom - Bill of Materials (BOM) for Java™ EE Web Profile.
 Copyright (C) 2019, 2020, 2021, 2022, 2023, 2024, 2025  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
@@ -39,8 +39,8 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
     <subproject.subpath>book/</subproject.subpath>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>javaee-web-api-bom</documented.artifactId>
-    <documented.name>Jakarta EE Web Profile BOM</documented.name>
-    <documented.description>Bill of Materials (BOM) for Jakarta EE Web Profile.</documented.description>
+    <documented.name>Java™ EE Web Profile BOM</documented.name>
+    <documented.description>Bill of Materials (BOM) for Java™ EE Web Profile.</documented.description>
     <!-- Java 1.7 for Java EE 7 -->
     <documented.javase.version>1.7</documented.javase.version>
     <documented.javadoc.link.javase>${javadoc.link.javase.7}</documented.javadoc.link.javase>
@@ -48,9 +48,9 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>Jakarta EE Web Profile BOM Book</name>
+  <name>Java™ EE Web Profile BOM Book</name>
   <url>https://oss.aoapps.com/jakartaee-web-profile-bom/</url>
-  <description>Documentation for Jakarta EE Web Profile BOM in SemanticCMS format.</description>
+  <description>Documentation for Java™ EE Web Profile BOM in SemanticCMS format.</description>
   <inceptionYear>2019</inceptionYear>
 
   <licenses>
