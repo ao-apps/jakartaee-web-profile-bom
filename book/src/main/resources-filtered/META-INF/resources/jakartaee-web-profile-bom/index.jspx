@@ -51,6 +51,7 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
         arg.mavenBadge="maven-central"
         arg.groupId="@{project.groupId}"
         arg.artifactId="@{documented.artifactId}"
+        arg.sonarProjectKey="com.aoapps:jakartaee-web-profile-bom"
         arg.sonarQualityGate="true"
         arg.sonarLinesOfCode="true"
         arg.sonarReliability="true"
