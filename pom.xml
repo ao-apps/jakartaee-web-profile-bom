@@ -35,10 +35,10 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
   <properties>
     <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
     <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
-    <!-- Java 1.7 for Java EE 7 -->
-    <javase.version>1.7</javase.version>
-    <javase.release>7</javase.release>
-    <javadoc.link.javase>${javadoc.link.javase.7}</javadoc.link.javase>
+    <!-- Java 11 for Jakarta EE 10 -->
+    <javase.version>11</javase.version>
+    <javase.release>11</javase.release>
+    <javadoc.link.javase>${javadoc.link.javase.11}</javadoc.link.javase>
   </properties>
 
   <name>Jakarta EE Web Profile BOM</name>

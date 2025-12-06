@@ -41,9 +41,9 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     <documented.artifactId>jakartaee-web-profile-bom</documented.artifactId>
     <documented.name>Jakarta EE Web Profile BOM</documented.name>
     <documented.description>Bill of Materials (BOM) for Jakarta EE Web Profile.</documented.description>
-    <!-- Java 1.7 for Java EE 7 -->
-    <documented.javase.version>1.7</documented.javase.version>
-    <documented.javadoc.link.javase>${javadoc.link.javase.7}</documented.javadoc.link.javase>
+    <!-- Java 11 for Jakarta EE 10 -->
+    <documented.javase.version>11</documented.javase.version>
+    <documented.javadoc.link.javase>${javadoc.link.javase.11}</documented.javadoc.link.javase>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
