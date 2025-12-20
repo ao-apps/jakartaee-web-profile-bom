@@ -20,7 +20,7 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses/>.
  */
-module com.aoapps.javaee.webapi.bom.book {
+module com.aoapps.jakartaee.webprofile.bom.book {
   // Direct
   requires com.aoapps.badges; // <groupId>com.aoapps</groupId><artifactId>ao-badges</artifactId>
   requires com.aoapps.taglib; // <groupId>com.aoapps</groupId><artifactId>ao-taglib</artifactId>
