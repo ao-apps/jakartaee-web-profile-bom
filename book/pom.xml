@@ -37,6 +37,9 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
     <module.name>com.aoapps.jakartaee.webprofile.bom.book</module.name>
     <subproject.subpath>book/</subproject.subpath>
+    <!-- Java 17 -->
+    <javase.version>17</javase.version>
+    <javase.release>17</javase.release>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>jakartaee-web-profile-bom</documented.artifactId>
     <documented.name>Jakarta EE Web Profile BOM</documented.name>
