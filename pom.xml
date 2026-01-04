@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 jakartaee-web-profile-bom - Bill of Materials (BOM) for Jakarta EE Web Profile.
-Copyright (C) 2019, 2020, 2021, 2022, 2023, 2024, 2025  AO Industries, Inc.
+Copyright (C) 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -112,6 +112,11 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
 
   <dependencyManagement>
     <dependencies>
+      <!--
+        Note: When making any changes to these versions, review and update:
+        ao-servlet-util:JavaeeWebSurrogateFactoryInitializer.java
+        ao-encoding-taglib:JavaeeWebSurrogateFactoryInitializer.java
+      -->
       <!-- Direct -->
       <dependency>
         <!-- Note: This version number is also in README.md and index.jspx -->
