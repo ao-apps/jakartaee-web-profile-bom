@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 javaee-web-api-bom - Bill of Materials (BOM) for Java™ EE Web Profile.
-Copyright (C) 2019, 2020, 2021, 2022, 2023, 2025  AO Industries, Inc.
+Copyright (C) 2019, 2020, 2021, 2022, 2023, 2025, 2026  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -53,20 +53,6 @@ along with javaee-web-api-bom.  If not, see <https://www.gnu.org/licenses/>.
         scmUrl="@{project.scm.url}"
       />
     </c:if>
-
-    <changelog:release
-      projectName="Jakarta EE Web Profile BOM"
-      version="10.0.0-SNAPSHOT"
-      groupId="@{project.groupId}"
-      artifactId="jakartaee-web-profile-bom"
-      scmUrl="@{project.scm.url}"
-    >
-      <ul>
-        <li>Updated to <ao:a href="https://jakarta.ee/specifications/webprofile/10/">Jakarta EE Web Profile 10</ao:a> (Servlet 6.0, JSP 3.1, EL 5.0, and JSTL 3.0).</li>
-        <li>Minimum Java version changed from 1.7 to 11.</li>
-        <li>Maven artifact relocated from <code>com.aoapps:javaee-web-api-bom</code> to <code>com.aoapps:jakartaee-web-profile-bom</code>.</li>
-      </ul>
-    </changelog:release>
 
     <changelog:release
       projectName="@{documented.name}"
