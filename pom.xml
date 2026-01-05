@@ -114,8 +114,8 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     <dependencies>
       <!--
         Note: When making any changes to these versions, review and update:
-        ao-servlet-util:JavaeeWebSurrogateFactoryInitializer.java
-        ao-encoding-taglib:JavaeeWebSurrogateFactoryInitializer.java
+        ao-servlet-util:JakartaeeWebSurrogateFactoryInitializer.java
+        ao-encoding-taglib:JakartaeeWebSurrogateFactoryInitializer.java
       -->
       <!-- Direct -->
       <dependency>
