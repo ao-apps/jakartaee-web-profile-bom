@@ -47,7 +47,7 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     <documented.artifactId>jakartaee-web-profile-bom</documented.artifactId>
     <documented.name>Jakarta EE Web Profile BOM</documented.name>
     <documented.description>Bill of Materials (BOM) for Jakarta EE Web Profile.</documented.description>
-    <!-- Java 11 for Jakarta EE 10 -->
+    <!-- Java 11 -->
     <documented.javase.version>11</documented.javase.version>
     <documented.javadoc.link.javase>${javadoc.link.javase.11}</documented.javadoc.link.javase>
     <!-- Jakarta EE 10 -->
