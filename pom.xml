@@ -29,12 +29,12 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.aoapps</groupId><artifactId>jakartaee-web-profile-bom</artifactId><version>10.0.0-SNAPSHOT</version>
+  <groupId>com.aoapps</groupId><artifactId>jakartaee-web-profile-bom</artifactId><version>10.0.0</version>
   <packaging>pom</packaging>
 
   <properties>
     <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
-    <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2026-01-30T09:02:37Z</project.build.outputTimestamp>
     <!-- Java 11 for Jakarta EE 10 -->
     <javase.version>11</javase.version>
     <javase.release>11</javase.release>
@@ -76,7 +76,7 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     <connection>scm:git:git://github.com/ao-apps/jakartaee-web-profile-bom.git</connection>
     <developerConnection>scm:git:git@github.com:ao-apps/jakartaee-web-profile-bom.git</developerConnection>
     <url>https://github.com/ao-apps/jakartaee-web-profile-bom</url>
-    <tag>HEAD</tag>
+    <tag>jakartaee-web-profile-bom-10.0.0</tag>
   </scm>
 
   <issueManagement>
