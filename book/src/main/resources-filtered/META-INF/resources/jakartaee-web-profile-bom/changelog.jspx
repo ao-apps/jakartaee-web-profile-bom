@@ -37,9 +37,9 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2019-06-17T08:42:49-05:00"
-    dateModified="2026-02-09T02:12:49Z"
+    dateModified="2026-02-09T14:45:53Z"
   >
-    <c:set var="latestRelease" value="10.0.0" />
+    <c:set var="latestRelease" value="10.0.1" />
     <c:if test="${
       fn:endsWith('@{project.version}', '-SNAPSHOT')
       and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')
@@ -51,15 +51,24 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
         groupId="@{project.groupId}"
         artifactId="@{documented.artifactId}"
         scmUrl="@{project.scm.url}"
-      >
-        <ul>
-          <li>
-            Removed runtime scope from <code>org.glassfish.web:<strong>jakarta.servlet.jsp.jstl</strong></code>.
-            Scopes should be decided by the individual projects, not at the BOM level.
-          </li>
-        </ul>
-      </changelog:release>
+      />
     </c:if>
+
+    <changelog:release
+      projectName="@{documented.name}"
+      version="10.0.1"
+      datePublished="2026-02-09T14:45:53Z"
+      groupId="@{project.groupId}"
+      artifactId="@{documented.artifactId}"
+      scmUrl="@{project.scm.url}"
+    >
+      <ul>
+        <li>
+          Removed runtime scope from <code>org.glassfish.web:<strong>jakarta.servlet.jsp.jstl</strong></code>.
+          Scopes should be decided by the individual projects, not at the BOM level.
+        </li>
+      </ul>
+    </changelog:release>
 
     <changelog:release
       projectName="@{documented.name}"
