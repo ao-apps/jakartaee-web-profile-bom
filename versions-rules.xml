@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 jakartaee-web-profile-bom - Bill of Materials (BOM) for Jakarta EE Web Profile.
-Copyright (C) 2020, 2021, 2022, 2025  AO Industries, Inc.
+Copyright (C) 2020, 2021, 2022, 2025, 2026  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -29,7 +29,6 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
 >
   <rules>
     <!-- Stay on Jakarta EE Web Profile 10, see https://jakarta.ee/specifications/webprofile/10/ -->
-    <!-- Direct -->
     <rule groupId="jakarta.el" artifactId="jakarta.el-api" comparisonMethod="maven">
       <ignoreVersions>
         <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
@@ -54,6 +53,11 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
         <ignoreVersion type="regex">4\.[0-9]+.*</ignoreVersion>
       </ignoreVersions>
     </rule>
+    <rule groupId="org.glassfish.web" artifactId="jakarta.servlet.jsp.jstl" comparisonMethod="maven">
+      <ignoreVersions>
+        <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
+      </ignoreVersions>
+    </rule>
     <rule groupId="jakarta.servlet.jsp.jstl" artifactId="jakarta.servlet.jsp.jstl-api" comparisonMethod="maven">
       <ignoreVersions>
         <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
@@ -69,12 +73,6 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
       <ignoreVersions>
         <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
         <ignoreVersion type="regex">2\.2\.[0-9]+.*</ignoreVersion>
-      </ignoreVersions>
-    </rule>
-    <!-- Runtime -->
-    <rule groupId="org.glassfish.web" artifactId="jakarta.servlet.jsp.jstl" comparisonMethod="maven">
-      <ignoreVersions>
-        <ignoreVersion type="regex">.*-(M|RC)[0-9]+</ignoreVersion>
       </ignoreVersions>
     </rule>
   </rules>

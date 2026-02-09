@@ -29,7 +29,7 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
     <relativePath>../parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.aoapps</groupId><artifactId>jakartaee-web-profile-bom</artifactId><version>10.0.0-POST-SNAPSHOT</version>
+  <groupId>com.aoapps</groupId><artifactId>jakartaee-web-profile-bom</artifactId><version>10.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
@@ -117,7 +117,6 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
         ao-servlet-util:JakartaeeWebSurrogateFactoryInitializer.java
         ao-encoding-taglib:JakartaeeWebSurrogateFactoryInitializer.java
       -->
-      <!-- Direct -->
       <dependency>
         <!-- Note: This version number is also in README.md and index.jspx -->
         <groupId>jakarta.el</groupId><artifactId>jakarta.el-api</artifactId><version>5.0.1</version>
@@ -136,6 +135,10 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
       </dependency>
       <dependency>
         <!-- Note: This version number is also in README.md and index.jspx -->
+        <groupId>org.glassfish.web</groupId><artifactId>jakarta.servlet.jsp.jstl</artifactId><version>3.0.1</version>
+      </dependency>
+      <dependency>
+        <!-- Note: This version number is also in README.md and index.jspx -->
         <groupId>jakarta.servlet.jsp.jstl</groupId><artifactId>jakarta.servlet.jsp.jstl-api</artifactId><version>3.0.2</version>
       </dependency>
       <dependency>
@@ -145,12 +148,6 @@ along with jakartaee-web-profile-bom.  If not, see <https://www.gnu.org/licenses
       <dependency>
         <!-- Note: This version number is also in README.md and index.jspx -->
         <groupId>jakarta.websocket</groupId><artifactId>jakarta.websocket-client-api</artifactId><version>2.1.1</version>
-      </dependency>
-      <!-- Runtime -->
-      <dependency>
-        <!-- Note: This version number is also in README.md and index.jspx -->
-        <groupId>org.glassfish.web</groupId><artifactId>jakarta.servlet.jsp.jstl</artifactId><version>3.0.1</version>
-        <scope>runtime</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>

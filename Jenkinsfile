@@ -33,16 +33,14 @@ binding.setVariable('upstreamProjects', [
   'ant-tasks', // <groupId>com.aoapps</groupId><artifactId>ao-ant-tasks</artifactId>
   'checkstyle-config', // <groupId>com.aoapps</groupId><artifactId>ao-checkstyle-config</artifactId>
 
-  // Direct
   // No Jenkins: <groupId>jakarta.el</groupId><artifactId>jakarta.el-api</artifactId>
   // No Jenkins: <groupId>jakarta.platform</groupId><artifactId>jakarta.jakartaee-web-api</artifactId>
   // No Jenkins: <groupId>jakarta.servlet</groupId><artifactId>jakarta.servlet-api</artifactId>
   // No Jenkins: <groupId>jakarta.servlet.jsp</groupId><artifactId>jakarta.servlet.jsp-api</artifactId>
+  // No Jenkins: <groupId>org.glassfish.web</groupId><artifactId>jakarta.servlet.jsp.jstl</artifactId>
   // No Jenkins: <groupId>jakarta.servlet.jsp.jstl</groupId><artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
   // No Jenkins: <groupId>jakarta.websocket</groupId><artifactId>jakarta.websocket-api</artifactId>
   // No Jenkins: <groupId>jakarta.websocket</groupId><artifactId>jakarta.websocket-client-api</artifactId>
-  // Runtime
-  // No Jenkins: <groupId>org.glassfish.web</groupId><artifactId>jakarta.servlet.jsp.jstl</artifactId>
 ])
 
 /******************************************************************************************
