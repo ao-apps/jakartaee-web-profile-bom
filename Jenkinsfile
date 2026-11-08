@@ -44,6 +44,7 @@ binding.setVariable('upstreamProjects', [
 ])
 
 // Also audit Jakarta EE release branch on each build
+// Note: These branches are added as additional build triggers
 binding.setVariable('scmAdditionalAuditBranches', ['release-jakartaee'])
 
 /******************************************************************************************
