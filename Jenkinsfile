@@ -46,6 +46,9 @@ binding.setVariable('upstreamProjects', [
   // No Jenkins: <groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-spec</artifactId>
 ])
 
+// Also audit Java EE release branch on each build
+binding.setVariable('scmAdditionalAuditBranches', ['release-javaee'])
+
 /******************************************************************************************
  *                                                                                        *
  * Everything below this line is identical for all projects, except the copied matrix     *
