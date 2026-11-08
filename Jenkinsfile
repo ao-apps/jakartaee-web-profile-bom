@@ -43,6 +43,9 @@ binding.setVariable('upstreamProjects', [
   // No Jenkins: <groupId>jakarta.websocket</groupId><artifactId>jakarta.websocket-client-api</artifactId>
 ])
 
+// Also audit Jakarta EE release branch on each build
+binding.setVariable('scmAdditionalAuditBranches', ['release-jakartaee'])
+
 /******************************************************************************************
  *                                                                                        *
  * Everything below this line is identical for all projects, except the copied matrix     *
